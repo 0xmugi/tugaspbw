@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Tabel Tugas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: #5cc089; /* Dark gray for a minimalist look */
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc; /* Light gray border */
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f9f9f9; /* Very light gray for header */
+            color: #555; /* Medium gray for text */
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Light gray for even rows */
+        }
+        tr:hover {
+            background-color: #e0e0e0; /* Slightly darker gray on hover */
+        }
+        .img-cell img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Tabel Tugas</h2>
+
+<table>
+    <tr>
+        <th rowspan="2">NAMA</th>
+        <th rowspan="2">FOTO</th>
+        <th colspan="2">MATERI</th>
+        <th colspan="2">IPK</th>
+    </tr>
+    <tr>
+        <th>WORKSHOP</th>
+        <th>KURSUS</th>
+        <th>LOKAL</th>
+        <th>UTAMA</th>
+    </tr>
+    <tr>
+        <td>Aqias Syauqi Abdillah</td>
+        <td class="img-cell">
+            <img src="https://via.placeholder.com/50" alt="Foto Andhika">
+        </td>
+        <td>Introduction to XML</td>
+        <td>Web Programming With ASP</td>
+        <td>3,23</td>
+        <td>3,47</td>
+    </tr>
+    <tr>
+        <td>Beno Wahyu Alamsyah</td>
+        <td class="img-cell">
+            <img src="https://via.placeholder.com/50" alt="Foto Ahmad">
+        </td>
+        <td>Visual Basic With Database</td>
+        <td>Visual Basic With SQL Server</td>
+        <td>3,53</td>
+        <td>3,64</td>
+    </tr>
+    <tr>
+        <td>Gilang Cahyadi</td>
+        <td class="img-cell">
+            <img src="https://via.placeholder.com/50" alt="Foto Dinda">
+        </td>
+        <td>Oracle Developer Report</td>
+        <td>Introduction to Oracle: SQL and PL/SQL</td>
+        <td>3,56</td>
+        <td>3,49</td>
+    </tr>
+    <tr>
+        <td>Muhammad Rizky Sakti</td>
+        <td class="img-cell">
+            <img src="https://via.placeholder.com/50" alt="Foto Alif">
+        </td>
+        <td>Visual Basic with Applications</td>
+        <td>Java Programming</td>
+        <td>3,23</td>
+        <td>3,42</td>
+    </tr>
+    <tr>
+        <td>Thatiana</td>
+        <td class="img-cell">
+            <img src="https://via.placeholder.com/50" alt="Foto Dzaky">
+        </td>
+        <td>Introduction to Networking</td>
+        <td>Python for Data Science</td>
+        <td>3,51</td>
+        <td>3,52</td>
+    </tr>
+</table>
+
+</body>
+</html>
